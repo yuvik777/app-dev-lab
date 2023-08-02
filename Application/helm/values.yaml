@@ -2,8 +2,8 @@ ReplicaNumber: 3
 
 containers:
   containerPort: 8080
-  image: 'quay.io/yuvalti/image-yuval:v2'
-  tag: 'base'
+  image: 'quay.io/yuvalti/image-yuval'
+  tag: 'v2'
 
 service:
   servicePort: 8080
