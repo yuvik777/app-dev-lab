@@ -5,7 +5,7 @@ containers:
   image: 'quay.io/yuvalti/image-yuval'
   tag: 'chart_v1'
 github:
-  user: # Your GitHub User name
+  user: yuvik777
   token: empty-pass
   url: <https://api.github.com/repos/{Git-userName}/{Repository-Name}/issues>
 probes:
