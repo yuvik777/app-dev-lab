@@ -1,10 +1,10 @@
-kind: ConfigMap
 apiVersion: v1
+kind: ConfigMap
 metadata:
   name: index.html
 immutable: false
 data:
-  index.html: |-
+{{ (.Files.Glob "html/*").AsConfig | indent 2 }}
     <html>
     <head>
       <title>HELM Application</title>
