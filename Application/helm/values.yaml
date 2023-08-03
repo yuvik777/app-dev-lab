@@ -1,9 +1,13 @@
 ReplicaNumber: 1
-test: Yuval
+test: Healthy
 containers:
   containerPort: 8080
   image: 'quay.io/yuvalti/image-yuval'
   tag: 'chart_v1'
+github:
+  user: # Your GitHub User name
+  token: empty-pass
+  url: <https://api.github.com/repos/{Git-userName}/{Repository-Name}/issues>
 probes:
   readiness:
     path: /health/readiness
