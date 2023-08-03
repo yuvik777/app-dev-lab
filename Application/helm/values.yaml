@@ -1,5 +1,5 @@
 ReplicaNumber: 1
-
+test: Healthy
 containers:
   containerPort: 8080
   image: 'quay.io/yuvalti/image-yuval'
